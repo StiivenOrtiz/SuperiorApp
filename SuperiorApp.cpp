@@ -1,1 +1,4 @@
-#include<stdio.h>
+#include <iostream>
+#include <wchar.h>
+
+using namespace std;
