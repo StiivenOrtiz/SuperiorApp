@@ -5,6 +5,6 @@ using namespace std;
 
 int main(){
     cout<<"Hola Mundo"<<endl;
-    cout<<1+1<<endl;
+    cout<<5+5<<endl;
     return 0;
 }
