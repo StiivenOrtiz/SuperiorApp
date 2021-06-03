@@ -501,7 +501,7 @@ int LlenarCarrito(sProductos ListaCategoriaP[], int Contador, sCarrito Carrito_C
 // Función para modificar el carrito de mercado.
 void ModificarCarrito(){
   // Generemaos un nuevo menú
-  int opcion; 
+  int opcion;
   do
   {
     cout<<"-Modificar Carrito de Compras-"<<endl;
@@ -852,4 +852,6 @@ int Cargar_Productos(sProductos ListaDeProductos[])
   }
 
   return Cantidad_Productos; // Retonar la cantidad de productos
-} // Fin del código
+}
+
+// Fin
