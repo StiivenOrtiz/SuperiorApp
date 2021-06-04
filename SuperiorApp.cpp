@@ -3,6 +3,7 @@
 #include <stdlib.h> // Gestión de memoria dinámica, control de procesos y otras cosas
 #include <string.h> // Librería de manipulación de vectores de char / manipulación de strings
 
+
 using namespace std;
 
 /*	Se declaran las variables constantes de: La ruta de archivo de los usuarios y productos,
@@ -73,6 +74,8 @@ int Registrar_Articulo();
 
 int main()
 {
+
+
     setlocale(LC_ALL, ""); // Se hace uso de la función setlocale, para poder usar tildes y carácteres especiales.
 
 
@@ -852,6 +855,4 @@ int Cargar_Productos(sProductos ListaDeProductos[])
   }
 
   return Cantidad_Productos; // Retonar la cantidad de productos
-}
-
-// Fin
+} // Fin del código
